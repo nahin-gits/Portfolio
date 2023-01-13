@@ -7,6 +7,7 @@
     background-image: url('./images/header_bg.png'),url('./images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right,left;
+    overflow: hidden;
 }
 .text-degin{
     font-size: xx-large;
@@ -58,6 +59,9 @@ main{
     margin: 0 auto;
     max-width: 1140px;
 }
+section{
+    margin-top: 130px;
+}
 /* section style */
 .section{
     margin-top: 130px;
@@ -67,9 +71,10 @@ main{
     text-align: center;
 }
 .section-title{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-weight: 700;
     font-size: 35px;
+    text-align: center;
 }
 .section-description{
     color: grey;
@@ -89,3 +94,28 @@ main{
     font-size: 20px;
     color: rgb(28, 24, 24);
 }
+/* what i do */
+.what-i-do{
+    margin-top: 130px;
+}
+.skill{
+    background-color: antiquewhite;
+    box-shadow: 0 6px 50px black;
+    border-radius: 5px;
+    padding: 30px;
+}
+.section-skill{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.skill-description{
+    color: blueviolet;
+    font-size: 15px;
+}
+/* resume */
