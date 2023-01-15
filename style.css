@@ -119,3 +119,52 @@ section{
     font-size: 15px;
 }
 /* resume */
+.resume-section{
+    display: flex;
+}
+.resume-title{
+    font-size:30px ;
+}
+.resume{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume .paragraph{
+    color: #757575;
+}
+.resume-button{
+    margin-top: 10px;
+    text-align: center;
+}
+/* contatct */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding: 100px 200px;
+}
+.contact .contact-title{
+ text-align: left;
+ margin-bottom: 24px;
+}
+.contact input[type="text"], input[type="email"], input[type="textarea"], textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 10px 15px;
+}
+.contact a{
+    text-decoration: none;
+    gap: 10px;
+}
